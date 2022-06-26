@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 
-from apps.core.views import frontpage
+from apps.core.views import frontpage, signup
 
 
 urlpatterns = [
@@ -25,5 +25,13 @@ urlpatterns = [
     #
 
     path('', frontpage, name='frontpage'),
+    path('signup/', signup, name='signup'),
+   
+   
+   
+   
+   # admin 
+   
     path('admin/', admin.site.urls),
+
 ]

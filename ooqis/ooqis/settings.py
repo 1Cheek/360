@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    'apps.core'
+    'apps.core',
+    'apps.ooqisprofile',
+    
 ]
 
 MIDDLEWARE = [
